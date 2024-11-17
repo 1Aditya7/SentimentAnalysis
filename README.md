@@ -84,21 +84,21 @@ Each model's performance was evaluated based on training and testing accuracy, c
   - `min_samples_split`: 8
   - `n_estimators`: 300
 - **Confusion Matrix**: 
-  ![Random Forest Confusion Matrix](path/to/rf_confusion_matrix.png)
-  *Inference*: The Random Forest model shows high performance on both training and testing datasets. The confusion matrix reveals a relatively low number of misclassifications, indicating the model's robustness. However, further tuning might help improve recall for the minority class.
+  ![Random Forest Confusion Matrix](https://github.com/1Aditya7/SentimentAnalysis/blob/main/amazonPlots/rfcConfusionMatrix.png)<br>
+  *>Inference*: The Random Forest model shows high performance on both training and testing datasets. The confusion matrix reveals a relatively low number of misclassifications, indicating the model's robustness. However, further tuning might help improve recall for the minority class.
 
 #### **XGBoost Classifier**
 - **Training Accuracy**: 97.42%
 - **Testing Accuracy**: 93.33%
 - **Confusion Matrix**:
-  ![XGBoost Confusion Matrix](path/to/xgb_confusion_matrix.png)
+  ![XGBoost Confusion Matrix](https://github.com/1Aditya7/SentimentAnalysis/blob/main/amazonPlots/xgbConfusionMatrix.png)<br>
   *Inference*: XGBoost performs well, slightly outperforming the Random Forest model on training accuracy, but similar performance on testing data. The confusion matrix highlights that the model is effective at identifying both positive and negative reviews with minimal errors.
 
 #### **Decision Tree Classifier**
 - **Training Accuracy**: 99.37%
 - **Testing Accuracy**: 92.22%
 - **Confusion Matrix**:
-  ![Decision Tree Confusion Matrix](path/to/dt_confusion_matrix.png)
+  ![Decision Tree Confusion Matrix](https://github.com/1Aditya7/SentimentAnalysis/blob/main/amazonPlots/dtcConfusionMatrix.png)<br>
   *Inference*: The Decision Tree model is also performing well but has a slightly lower testing accuracy than Random Forest and XGBoost. The confusion matrix shows some misclassifications, particularly in distinguishing between positive and negative reviews.
 
 ## **Error Evaluation Metrics**
